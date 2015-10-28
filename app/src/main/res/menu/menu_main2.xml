@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="tushar_sk.mytube.Main2Activity">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" compat:showAsAction="never" />
+
+    <item android:id="@+id/exit" android:title="@string/exit"
+        android:orderInCategory="100" compat:showAsAction="never"/>
+
+    <item android:id="@+id/search"
+        android:title="@string/action_search"
+        android:icon="@drawable/search"
+        compat:showAsAction="always"
+        compat:actionViewClass="android.support.v7.widget.SearchView" />
+
+</menu>

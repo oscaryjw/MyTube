@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/video_thumbnail1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView android:id="@+id/video_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/video_thumbnail1"
+        android:layout_toLeftOf="@+id/checkbox_select1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView android:id="@+id/video_review_no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/video_thumbnail1"
+        android:layout_alignBottom="@+id/video_thumbnail1"
+        android:textSize="11sp" />
+
+    <TextView android:id="@+id/video_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video_thumbnail1"
+        android:layout_toRightOf="@+id/video_review_no1"
+        android:layout_marginLeft="18dp"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_favorite1"
+        android:layout_alignParentEnd="true"
+        style="?android:attr/starStyle"
+        android:focusable="false"
+        android:visibility="invisible"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_select1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/video_thumbnail1"
+        android:focusable="false"
+        android:visibility="invisible"/>
+</LinearLayout>
