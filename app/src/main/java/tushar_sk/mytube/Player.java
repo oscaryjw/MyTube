@@ -14,7 +14,7 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 public class Player extends YouTubeBaseActivity  implements
         YouTubePlayer.OnInitializedListener{
 
-    private final String KEY = "AIzaSyCMRwKQiG3j1QbF5LjvJdbYqnlq5H2zQ0w";
+    private final String KEY = "enter andriod key here";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
