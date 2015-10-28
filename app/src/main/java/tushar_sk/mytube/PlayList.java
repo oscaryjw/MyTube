@@ -67,9 +67,9 @@ public class PlayList {
      */
     private static final JsonFactory JSON_FACTORY = new JacksonFactory();
 
-    private static final String Key = "AIzaSyDBs7JvtRMXkhyRLjd1YdNnlUFFfa7mGw4";
+    private static final String Key = "enter browser key here";
 
-    private static final String Dev_Key = "AIzaSyCMRwKQiG3j1QbF5LjvJdbYqnlq5H2zQ0w";
+    private static final String Dev_Key = "enter android key here";
 
     private static YouTube youtube;
 
