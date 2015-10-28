@@ -33,8 +33,7 @@ public class Connector {
    * TODO: Replace key AJzbXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX with your key.  If you don't, you
    * will get a 400 service error (bad request).
    */
-//    private static final String DEV_KEY = "AIzaSyCMRwKQiG3j1QbF5LjvJdbYqnlq5H2zQ0w"; //Andriod Key
-      private static final String DEV_KEY = "AIzaSyDBs7JvtRMXkhyRLjd1YdNnlUFFfa7mGw4"; // Browser Key
+      private static final String DEV_KEY = "enter browser key here"; // Browser Key
 
     /**
      * Global instance of the HTTP transport.
